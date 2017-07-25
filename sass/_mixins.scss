@@ -7,11 +7,6 @@
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
 }
-.circle{
-	@include imagenRedonda;
-
-}
-
 
 @mixin titulo_uno{
 	font-size: 16px;
@@ -33,18 +28,22 @@
 	text-align: $textoJustificado;
 }
 
-.parrafo1{
-	@include parrafo_uno;
-
-}
-
 @mixin boxes{
 	margin:0;
 	padding: 0;
 	border: 0;
 }
 
-.section1{
-	@include boxes;
+/*
+$responsive_resize: 0.6;
+$px:1px;*/
+
+@mixin res($rpx) {  // este mixin sirve para cambiar las medidas en diseño responsive
+    $px: $rpx;
+    @content;
+    @media screen and (max-width: 320px) {
+        $px: $rpx*$responsive_resize;
+        @content;
+    }
 }
 

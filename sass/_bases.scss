@@ -2,9 +2,10 @@
 	position: relative;
 	margin-top:40px;
 }
-
+//-----------------------------------Section1
 //imagen section 1
 .section1{
+	@include boxes;
 	position:absolute;
 	background:$colorpielClaro;
 	height: 400px;
@@ -13,11 +14,21 @@
 
 
 .circle{
+	@include imagenRedonda;
 	position:absolute;
 	margin-top: -40px;
 	margin-left: 70px;
 	//margin-left: 40px;
 	border: 5px solid $colorPiel;
+}
+
+.titulo1{
+	@include titulo_uno;
+}
+
+.parrafo1{
+	@include parrafo_uno;
+
 }
 
 .read{
@@ -33,5 +44,76 @@
 }
 
 
+//-----------------------------------Section1
+
+.section2{
+	float: $nada;
+	margin-top: 400px;
+	height:390px;
+	background-color: $colorPlomo;
+}
+
+.imgSpa{
+	@include boxes;  // esto elimina todos mis margenes para mantenerlo en el contenedor
+	@include imagenRedonda;
+	width: 430px;
+	height: 280px;
+	margin-top: 50px;
+	margin-left: 70px;
+}
+
+.title2 {
+	color: $colorPiel;
+	text-align:center;
+	position:relative;
+	bottom: -44px;
+}
 
 
+.subtitulo {
+	text-align: $textoJustificado;
+	position:relative;
+	top: 60px;
+}
+
+.listas {
+	
+	i {
+		position: relative;
+		top: 103px;
+		margin-top: -22px;
+		padding:2px;
+		display:flex;
+		justify-content: center;
+		}
+	
+	p 	{
+		position: relative;
+		top: 78px;
+		display:flex;
+		flex-wrap:wrap;
+		margin-left: 580px;
+		margin-top:4px;
+
+
+	}
+}
+/*------------------------------------Section3*/
+.section3{
+	background: $colorcafeClaro;
+	height: 400px;
+}
+
+.titulos{
+	display:flex;
+	
+
+	h2{
+	  color:$color-pielOpaco;
+	  justify-content:space-evenly;
+	}
+}
+
+.about{
+
+}
