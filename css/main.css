@@ -5818,13 +5818,59 @@ label {
     color: #fff; }
 
 .menu ul {
-  margin: 0;
+  margin: -60px;
   list-style: none;
-  padding: 0;
-  display: flex; }
-  .menu ul li a {
-    display: block;
-    float: left;
-    padding: 15px 20px 0 0; }
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #FAAC58; }
+  .menu ul li:hover {
+    background: rgba(0, 0, 0, 0.3);
+    list-style: none;
+    text-decoration: none; }
+    .menu ul li:hover a {
+      display: block;
+      float: left;
+      color: #fff;
+      text-decoration: none; }
+
+a {
+  color: #fff;
+  margin: 30px;
+  text-decoration: none; }
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background: transparent;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px; }
+
+.titulo1 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 100px; }
+
+.parrafo1 {
+  font-size: 12px;
+  margin-top: 10px; }
+
+.carousel-inner {
+  position: relative;
+  margin-top: 40px; }
+
+.section1 {
+  background: #F3E2A9;
+  height: 300px; }
+
+.circle {
+  position: absolute;
+  margin-top: -40px;
+  margin-left: 60px;
+  border: 5px solid #FAAC58;
+  overflow: auto; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,35 @@
+@mixin imagenRedonda{
+	width: 100px;
+	height: 100px;
+	background: transparent;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+.circle{
+	@include imagenRedonda;
+}
+
+
+@mixin titulo_uno{
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 100px;
+
+}
+
+.titulo1{
+	@include titulo_uno;
+}
+
+
+@mixin parrafo_uno{
+	font-size:12px;
+	margin-top: 10px;
+}
+
+.parrafo1{
+	@include parrafo_uno;
+
+}

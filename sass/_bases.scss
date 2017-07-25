@@ -1,45 +1,24 @@
-body{
-	margin: 0px;
-	font-family: $font_text1;
-	header{
-		width: 100%;
-		background: $cafeOscuro;
-		#btn-menu{
-			display:none;
-	
-		}
-
-	}
+.carousel-inner{
+	position: relative;
+	margin-top:40px;
 }
 
-label {
-	display:block;
-	width:50px;
-	height:50px;
-	padding: 10px;
-	border-right: 2px solid #fff;
-	&:hover{
-		cursor:pointer;
-		opacity: 10px;
-		color: #fff;
-	}
-			
-}	
-
-.menu ul{
-	margin: 0;
-	list-style:none;
-	padding:0;
-	display:flex;
-	
-	
-	li	a{
-		display:block;
-		float: left;
-		padding:15px 20px 0 0;
-
-	}
-
+//imagen section 1
+.section1{
+	background:$colorpielClaro;
+	height: 300px;
 }
+
+
+.circle{
+	position:absolute;
+	margin-top: -40px;
+	margin-left: 60px;
+	border: 5px solid $colorPiel;
+	overflow: auto;
+	
+}
+
+
 
 
