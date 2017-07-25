@@ -1,4 +1,5 @@
 @mixin imagenRedonda{
+	position: absolute;
 	width: 100px;
 	height: 100px;
 	background: transparent;
@@ -8,6 +9,7 @@
 }
 .circle{
 	@include imagenRedonda;
+
 }
 
 
@@ -16,20 +18,33 @@
 	font-weight: bold;
 	text-align: center;
 	margin-top: 100px;
-
+	clear: both;
 }
 
 .titulo1{
 	@include titulo_uno;
+
 }
 
 
 @mixin parrafo_uno{
 	font-size:12px;
 	margin-top: 10px;
+	text-align: $textoJustificado;
 }
 
 .parrafo1{
 	@include parrafo_uno;
 
 }
+
+@mixin boxes{
+	margin:0;
+	padding: 0;
+	border: 0;
+}
+
+.section1{
+	@include boxes;
+}
+
