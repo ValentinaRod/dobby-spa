@@ -62,11 +62,14 @@
 	margin-left: 70px;
 }
 
-.title2 {
+.welcome{
+	margin:30px;
+}
+
+.section2_title {
 	color: $colorPiel;
 	text-align:center;
-	position:relative;
-	bottom: -44px;
+	
 }
 
 
@@ -115,5 +118,23 @@
 }
 
 .about{
-
+	background-color:$colorcafeClaro;
+	color:$colorpielClaro;
 }
+
+.spa{
+	float: left;
+}
+//footer
+
+.footer{
+	background-color: $cafeOscuro;
+	color: $colorpielClaro;
+	border-top: 2px solid $colorpielClaro;
+}
+
+.img-circle{
+	border: 1px solid $colorpielClaro;
+	background-color:$blanco;
+}
+

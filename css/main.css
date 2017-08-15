@@ -5909,11 +5909,12 @@ $px:1px;*/
   margin-top: 50px;
   margin-left: 70px; }
 
-.title2 {
+.welcome {
+  margin: 30px; }
+
+.section2_title {
   color: #FAAC58;
-  text-align: center;
-  position: relative;
-  bottom: -44px; }
+  text-align: center; }
 
 .subtitulo {
   text-align: justify;
@@ -5945,5 +5946,21 @@ $px:1px;*/
   .titulos h2 {
     color: #DCCC9A;
     justify-content: space-evenly; }
+
+.about {
+  background-color: #6A5E5E;
+  color: #F3E2A9; }
+
+.spa {
+  float: left; }
+
+.footer {
+  background-color: #3B0B0B;
+  color: #F3E2A9;
+  border-top: 2px solid #F3E2A9; }
+
+.img-circle {
+  border: 1px solid #F3E2A9;
+  background-color: #fff; }
 
 /*# sourceMappingURL=main.css.map */
